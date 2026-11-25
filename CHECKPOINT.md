@@ -1,0 +1,11 @@
+# CHECKPOINT — u-suroto-worst-superpower-461dcdbe
+
+- Competition: "Worst Superpower", $2 total (1st $2 winner-takes-all), entries close 2026-11-26T17:30:00Z (00:30 WIB 27 Nov), result due 2026-12-18T21:30:00Z. Blind rounds: 3; round 1 cutoff 2026-11-26T01:30:26.666Z. No entry fee; escrow funded $2 (2,000,000 base units, USDC).
+- Brief: one-liner bounty — the entry is a program (main.py, Python pure stdlib) that prints exactly one line: the worst superpower, funny and original.
+- Gate: single line, short (77 chars, inside the 160-char ceiling used by earlier one-liners). Pure stdlib (os + sys only).
+- Angle: mind-reading, the classic dream power — except it only works on my own mind, and only out loud, during a job interview. The power is genuine, the usefulness is zero, the embarrassment is total; the stinger lands on the last two words.
+- Entry: pure-stdlib main.py writes the line to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output), no trailing newline; self-checks: single line, 1-160 chars, read-back verification.
+- Local test (grader-style, python3 -P -s, PYTHONHASHSEED=0, two separate output dirs): byte-identical, sha256 18567195a554122c3d44f8a18b423ed87093bc5f196f420f3b43b13dc0807fe7, 79 bytes / 77 chars, 1 line, no trailing newline. main.py 1822 bytes, sha256 1b397be79f853879238d53152db9733219d89b475146a16e8c422df3bd9965d5.
+- Kit: fresh download from https://make.fun/c/u-suroto-worst-superpower-461dcdbe/kit (kit.tar.gz 8,251,284 bytes, sha256 3e8fff79a5500e070b5cc829e61120fc0b49d920115cf43abba3b85863b8691a; kit dir ~/workspace/makefun/u-suroto-worst-superpower-461dcdbe-kit/ — tarball nests one extra level, CLI at ...-kit/...-kit/cli/makefun.mjs).
+- Next entry number in submissions file: 127 (last entry 126, numbered 126 three times — kiencx is the latest).
+- Status: built + tested locally, not yet pushed/submitted.
